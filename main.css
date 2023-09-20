@@ -1,0 +1,58 @@
+:root {
+    font-size: 12px;
+    background-color: #000000;
+}
+
+taipy-body {
+    background-color: #cccccc;
+}
+
+body,
+#root,
+#root > .MuiBox-root,
+#root > .MuiBox-root > .MuiBox-root {
+  max-width: 100%;
+  background-color: #f9f8fd !important;
+}
+
+h1 strong {
+    font-size: 48px;
+}
+h1 {
+    font-size: 32px;
+    color: #3682dc;
+}
+
+.taipy-selector{
+    color: aqua;
+    font-size: 24px;
+}
+
+h2 {
+    color: #000000;
+}
+
+.infobox {
+    background: #ffffff;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.leftbar {
+    background: #fff;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+h2 .taipy-text {
+    display: block;
+    color: #070707;
+    font-size: 24px;
+    font-weight: 200;
+}
